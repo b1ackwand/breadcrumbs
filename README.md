@@ -31,3 +31,5 @@ CSS3 (Custom styles + Neumorphism styling)
 
 Local server (e.g., Live Server or Python HTTP server for preview)
 
+
+<img width="1669" alt="image" src="https://github.com/user-attachments/assets/a316ea7a-12e8-45b4-93cc-206cb418e87c" />
