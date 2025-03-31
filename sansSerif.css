@@ -1,0 +1,59 @@
+.container {
+  background-color: none;
+  padding: 1em;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-gap: 1em;
+  justify-items: center;
+  align-items: top;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  min-width: 10em;
+  margin-top: 4em;
+  box-shadow: -10px -10px 30px #fff, 10px 10px 30px #aeaec040;
+  border: none;
+  border-radius: 10px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: underline;
+  padding: 0.5em;
+}
+
+#Montserrat {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#SourceCodePro {
+  font-family: "Source Code Pro", monospace !important;
+}
+
+#NunitoSans {
+  font-family: nunito, sans-serif !important;
+}
+
+#Poppins {
+  font-family: "Poppins", sans-serif !important;
+}

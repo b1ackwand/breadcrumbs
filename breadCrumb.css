@@ -1,0 +1,38 @@
+.breadcrumb {
+  padding: 1em;
+  margin-top: -4em;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb li.location::after {
+  color: #888;
+  content: "/";
+}
+
+.breadcrumb li.location + li.locatio::before {
+  color: #888;
+  content: "/";
+}
+
+.breadcrumb li.attribute + li.attribute::before {
+  color: #888;
+  content: "/";
+}
+
+.breadcrumb a {
+  padding: 1em;
+  background-color: none;
+  color: #888;
+  text-decoration: none;
+  display: inline;
+}
+.attribute a {
+  background-color: none;
+  color: #888;
+  text-decoration: none;
+}
