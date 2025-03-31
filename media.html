@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/breadCrumb.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Media & Interactive Elements</title>
+  </head>
+  <body>
+    <header>
+      <h2 id="title">Media & Interactive Elements</h2>
+    </header>
+
+    <div>
+      <ul class="breadcrumb">
+        <li class="location"><a href="index.html">Home</a></li>
+        <li class="attribute"><a href="media.html">Media & Interactions</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <section class="content-section">
+        <h3>Primary Button</h3>
+        <p>A common styled button for main actions.</p>
+        <button class="btn primary">Click Me</button>
+      </section>
+
+      <section class="content-section">
+        <h3>Secondary Button</h3>
+        <p>Used for secondary or less important actions.</p>
+        <button class="btn secondary">More Info</button>
+      </section>
+
+      <section class="content-section">
+        <h3>Audio Player</h3>
+        <p>HTML5 built-in audio player for sound clips or music.</p>
+        <audio controls>
+          <source src="media/sample-audio.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <section class="content-section">
+        <h3>Video Player</h3>
+        <p>Native HTML5 video player with controls.</p>
+        <video controls width="300">
+          <source src="media/sample-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section class="content-section">
+        <h3>Hover Interaction</h3>
+        <p>Example of a card that responds to hover.</p>
+        <div class="hover-card">Hover over me!</div>
+      </section>
+
+      <section class="content-section">
+        <h3>Form Field</h3>
+        <p>Basic interactive form input.</p>
+        <form>
+          <label for="name">Your Name:</label><br />
+          <input type="text" id="name" name="name" placeholder="Enter name" />
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
